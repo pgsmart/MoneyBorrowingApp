@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "firebase": "*",
+    "@firebase/app": "0.x.0",
+    "@firebase/auth": "*",
+    "@expo/vector-icons": "^13.0.0",
+    "react-native-paper": "4.9.2",
+    "@firebase/firestore": "*",
+    "@react-native-async-storage/async-storage": "1.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
